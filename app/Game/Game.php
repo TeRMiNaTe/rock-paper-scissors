@@ -21,9 +21,9 @@ class Game
 		$this->clearOutput();
 	}
 
-	public function play() {
+	public function play($count = 3) {
 
-		$this->playRounds(3);
+		$this->playRounds($count);
 
 		$this->winner();
 	}
